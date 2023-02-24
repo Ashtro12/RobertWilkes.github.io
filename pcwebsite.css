@@ -1,0 +1,100 @@
+body  {
+	background-color: grey;
+	color: #B52A05;
+	font-family: Arial, Helvetica, sans-serif;
+} 
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+nav {
+    float: left; 
+    width: 150px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: black;
+    height: 100%;
+    margin: auto;
+    padding: 5px;
+}
+main { 
+    background-image: linear-gradient(to right, gold, grey); 
+    color: #000000;
+    padding: 10px 20px; 
+    overflow: auto; 
+    display: block; 
+    margin: auto;
+
+}
+header {
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    font-size: 150%;
+    padding: 10px;
+    margin: auto;
+}
+
+nav a:link { 
+    color:  red; 
+
+}
+nav a:visited { 
+    color: blue; 
+
+}
+nav a:hover { 
+    color: #869DC7;
+    background-color: #EAEAEA; 
+    transition: background-color 2s linear;
+
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+}
+#wrapper { 
+    background-image: linear-gradient(to bottom, gold, black); 
+    width: 80%;
+    margin: auto;
+    min-width:850px;
+} 
+ table {
+     border: 2px solid black;
+     border: solid;
+     background-color: darkgrey;
+ }
+ td {
+     padding: 0.5em;
+     border: 2px solid black;
+     text-align: center;
+ }
+ th {
+     padding: 0.5em;
+     border: 2px solid black;
+ }
+ .text {
+     text-align: left;
+ }
+  label {
+     float: left;
+     display: block;
+     text-align: right;
+     width: 140px;
+     padding-right: 5px;
+ }
+ input {
+     display: block;
+     margin-bottom: 20px;
+
+ }
+ textarea {
+     display: block;
+     margin-bottom: 20px;
+
+ }
+ input[type="submit"] {
+     margin-left: 260px;
+
+ }
